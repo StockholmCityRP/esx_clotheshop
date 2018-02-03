@@ -41,7 +41,7 @@ function OpenShopMenu()
 			'default', GetCurrentResourceName(), 'shop_confirm',
 			{
 				title = _U('valid_this_purchase'),
-				align = 'top-left',
+				align = 'bottom-right',
 				elements = {
 					{label = _U('yes'), value = 'yes'},
 					{label = _U('no'), value = 'no'},
@@ -73,7 +73,7 @@ function OpenShopMenu()
 										'default', GetCurrentResourceName(), 'save_dressing',
 										{
 											title = _U('save_in_dressing'),
-											align = 'top-left',
+											align = 'bottom-right',
 											elements = {
 												{label = _U('yes'), value = 'yes'},
 												{label = _U('no'),  value = 'no'},
