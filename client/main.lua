@@ -245,7 +245,7 @@ end)
 Citizen.CreateThread(function()
 	while true do
 
-		Wait(0)
+		Citizen.Wait(10)
 
 		local coords      = GetEntityCoords(GetPlayerPed(-1))
 		local isInMarker  = false
@@ -276,7 +276,7 @@ end)
 Citizen.CreateThread(function()
 	while true do
 
-		Citizen.Wait(0)
+		Citizen.Wait(10)
 
 		if CurrentAction ~= nil then
 

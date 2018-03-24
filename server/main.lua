@@ -10,7 +10,7 @@ AddEventHandler('esx_clotheshop:pay', function()
 
 	xPlayer.removeMoney(Config.Price)
 
-	TriggerClientEvent('esx:showNotification', source, _U('you_paid') .. Config.Price)
+	TriggerClientEvent('esx:showNotification', source, _U('you_paid', Config.Price))
 
 end)
 
