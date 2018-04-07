@@ -8,4 +8,5 @@ Locales['sv'] = {
 	['clothes'] = 'kläder',
 	['you_paid'] = 'du har betalat ~g~$%s~w~',
 	['save_in_dressing'] = 'vill du ge ett namn till din outfit?',
+	['saved_outfit'] = 'outfit sparad!',
 }
